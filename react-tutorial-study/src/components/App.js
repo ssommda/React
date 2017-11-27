@@ -28,8 +28,8 @@ class App extends React.Component {
                 <Header title = { this.props.headerTitle }/>
                 <Content title = { this.props.contentTitle }
                          body = { this.props.contentBody }/>
-                <RandomNumber number = { this.state.value }
-                              onUpdate = { this.updateValue }/> //RandomNumber 컴포넌트를 사용
+                <RandomNumber number = { this.state.value } /*RandomNumber 컴포넌트를 사용*/
+                              onUpdate = { this.updateValue }/>
             </div>
         );
     }
